@@ -18,8 +18,8 @@ class Config(object):
     PORT = os.environ.get("PORT", "8980")
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "RexBots")     
-    DB_URL  = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "mongodb+srv://kojar29650:h8jvNvpyteVB8AzM@cluster0.uywzxza.mongodb.net/?retryWrites=true&w=majority&appName=autorename")     
+    DB_URL  = os.environ.get("DB_URL", "pro auto rename")
  
     # other configs
     ADMIN_URL = "https://t.me/DiabloVolfir0"
