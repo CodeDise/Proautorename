@@ -23,15 +23,15 @@ class Config(object):
  
     # other configs
     ADMIN_URL = "https://t.me/DiabloVolfir0"
-    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1002257657458")
+    DUMP_CHANNEL = os.environ.get("DUMP_CHANNEL", "-1003552811449")
     DUMP = True
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/01d97707ab59877c8a0c0-957d34cb8f449879b2.jpg")
     LEADERBOARD_PIC = os.environ.get("LEADERBOARD_PIC", "https://telegra.ph/file/f71ff62d2419ce1f63822-b75b7c99d806423e2f.jpg")
     OWNER_ID = int(os.environ.get("OWNER_ID", "7813956229"))
-    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002871570975"))
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
-    FSUB_PIC = os.environ.get("FSUB_PIC", "")
+    SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002956317295"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1003552811449"))
+    FSUB_PIC = os.environ.get("FSUB_PIC", "https://telegra.ph/file/cb0c9cbe79dc5e520940a-8e4499c2b4e8b700ea.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Pro_autorenamebot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
