@@ -12,9 +12,9 @@ id_pattern = re.compile(r'^.\d+$')
 # --
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID    = os.environ.get("API_ID", "26944587")
+    API_HASH  = os.environ.get("API_HASH", "7261a455f2a6159b8a2fbfecd1a63004")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8507894341:AAEMv5lg0CUC11O_1jO0c7GZeZZGe4ym1ps")
     PORT = os.environ.get("PORT", "8980")
 
     # database config
@@ -32,7 +32,7 @@ class Config(object):
     SUPPORT_CHAT = int(os.environ.get("SUPPORT_CHAT", "-1002871570975"))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     FSUB_PIC = os.environ.get("FSUB_PIC", "")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Pro_autorenamebot")
     LEADERBOARD_DELETE_TIMER = 30
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
